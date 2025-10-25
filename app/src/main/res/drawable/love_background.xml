@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Gradient background -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:angle="45"
+                android:startColor="#FFF0F5"
+                android:centerColor="#FFD1DC"
+                android:endColor="#FFC0CB"
+                android:type="linear" />
+        </shape>
+    </item>
+
+    <!-- Floating cartoon hearts animation -->
+    <item android:drawable="@drawable/animated_hearts" />
+</layer-list>
